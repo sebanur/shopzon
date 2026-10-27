@@ -1,17 +1,44 @@
-# React + Vite
+# 🛍️ NextGen-Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NextGen-Shop is a modern and responsive e-commerce application built with **React, Redux Toolkit, and TailwindCSS**. It allows users to explore products, filter by category, sort by price, view product details, and manage their shopping cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+This project was developed to practice modern React architecture, global state management with Redux Toolkit, client-side routing, and REST API integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Key Features
 
-## Expanding the ESLint configuration
+- Product and category data integration with FakeStore API
+- Global state management using Redux Toolkit
+- Dynamic routing with React Router DOM
+- Category-based filtering and price sorting
+- Product detail pages
+- Shopping cart management (add, remove, total price)
+- Persistent cart data using LocalStorage
+- Product pagination with React Paginate
+- Interactive homepage slider
+- Reusable React components
+- Modern and responsive user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# shopzon
+---
+
+## 🛠️ Technologies Used
+
+- **React** – Component-based UI development
+- **Redux Toolkit & React Redux** – State management
+- **React Router DOM** – Page navigation
+- **TailwindCSS** – Responsive styling
+- **Vite** – Development and build tool
+- **JavaScript (ES6+)** – Application logic
+- **FakeStore API** – Product data integration
+- **React Icons** – UI icons
+- **React Slick** – Image slider
+- **React Paginate** – Product pagination
+
+---
+
+## 📸 Preview
+
+![](shopzon.gif)

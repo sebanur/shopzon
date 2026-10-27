@@ -1,6 +1,6 @@
-# 🛍️ NextGen-Shop
+# 🛍️ Shopzon
 
-NextGen-Shop is a modern and responsive e-commerce application built with **React, Redux Toolkit, and TailwindCSS**. It allows users to explore products, filter by category, sort by price, view product details, and manage their shopping cart.
+Shopzon is a modern and responsive e-commerce application built with **React, Redux Toolkit, and TailwindCSS**. It allows users to explore products, filter by category, sort by price, view product details, and manage their shopping cart.
 
 ---
 

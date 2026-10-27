@@ -1,0 +1,27 @@
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/navbar/Navbar";
+import PageContainer from "./containers/PageContainer";
+import { Provider } from "react-redux";
+import { store } from "./redux/store.js";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Detail from "./pages/Detail";
+import Cart from "./pages/Cart";
+
+createRoot(document.getElementById("root")).render(
+  <Provider store={store}>
+    <PageContainer>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products/:id" element={<Detail />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </Router>
+    </PageContainer>
+  </Provider>,
+);
